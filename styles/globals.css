@@ -321,4 +321,10 @@ body {
   .w-modal{
     width: 90%;
   }
+
+  .portada-cabos{
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: 0px;
+  }
 }

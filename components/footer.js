@@ -94,7 +94,7 @@ export default function Footer() {
             <div className="flex justify-center items-center gap-3 text-tfs h-max max-lg:pb-8">
               <a href="https://www.instagram.com/loscabosfromsky/" target="_blank" aria-label="Instagram"><FaInstagram className="hover text-3xl"/></a>
               <a href="https://www.facebook.com/FromskyLosCabos" target="_blank" aria-label="Facebook"><FaFacebookF className="hover text-3xl"/></a>
-              <a href="https://wa.me/529841820785" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="mr-3 text-3xl"/> +52 (984) 215 4121</a>
+              <a href="https://wa.me/529841820785" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="mr-3 text-3xl"/> +52 (624) 123 8954</a>
             </div>
           </div>
           <div>
@@ -148,9 +148,7 @@ export default function Footer() {
           </div>
           <div className="grid content-center px-3 py-8">
             <p className="text-center text-white uppercase font-bold letter-spacing-25 pb-4 lg:pb-8 w-full text-lg lg:text-base">{t('licencias')}</p>
-            <div className="grid grid-cols-4 justify-items-center items-center gap-3">
-              <Image src={'/img/agente-inmobiliario-persona-juridica-2.png'} width={131} height={72} alt="Agente inmobiliario persona juridica"/>
-              <Image src={'/img/matricula.jpg'} width={75} height={120} alt="Credencial de asesor"/>
+            <div className="grid grid-cols-2 justify-items-center items-center">
               <Image src={'/img/ampi-los-cabos.png'} width={250} height={87} alt="AMPI Los Cabos"/>
               <Image src={'/img/realtor.png'} width={86} height={100} alt="Realtor"/>
             </div>
