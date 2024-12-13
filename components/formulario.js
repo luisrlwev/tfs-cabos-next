@@ -142,15 +142,15 @@ export default function Formulario({ show, onClose }) {
             </form>
         </div>
         <div className="flex flex-col items-center justify-between max-lg:hidden bg-modal-img">
-          <Image src="/img/cancun/cancun.png" alt="Cancún" className='h-fit pt-6' width={352} height={106} />
+          <Image src="/img/cabos/cabos.png" alt="Cancún" className='h-fit pt-6' width={352} height={106} />
           <div className='flex justify-between border-b-2 border-white mb-5 pb-1 w-10/12'>
             <div>
               <p className='text-white uppercase letter-spacing-25 font-semibold'>Encuéntranos</p>
             </div>
             <div className='flex text-white gap-4'>
-              <a href="https://www.instagram.com/cancunfromskyrealtors/" target="_blank" aria-label="Instagram"><FaInstagram className="text-xl"/></a>
-              <a href="https://www.facebook.com/people/Canc%C3%BAn-Fromsky/61556689523996/" target="_blank" aria-label="Facebook"><FaFacebookF className="text-xl"/></a>
-              <a href="https://wa.me/529982154121" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="text-xl"/></a>
+              <a href="https://www.instagram.com/loscabosfromsky/" target="_blank" aria-label="Instagram"><FaInstagram className="text-xl"/></a>
+              <a href="https://www.facebook.com/FromskyLosCabos" target="_blank" aria-label="Facebook"><FaFacebookF className="text-xl"/></a>
+              <a href="https://wa.me/529841820785" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="text-xl"/></a>
             </div>
           </div>
         </div>
